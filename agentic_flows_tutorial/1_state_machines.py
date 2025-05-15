@@ -1,4 +1,4 @@
-# 1. State Management & State Machines for Agentic Flows
+ # 1. State Management & State Machines for Agentic Flows
 
 from enum import Enum, auto
 from typing import Callable, Dict, Any, Optional
@@ -172,4 +172,4 @@ if __name__ == "__main__":
 #   - Hierarchical state machines (states within states).
 # - Libraries like `transitions` (pytransitions) can provide more advanced features out-of-the-box.
 # - For agentic flows, the "actions" are where the agent would call its tools, 
-#   update its internal knowledge, or communicate with users/other systems. 
+#   update its internal knowledge, or communicate with users/other systems.
