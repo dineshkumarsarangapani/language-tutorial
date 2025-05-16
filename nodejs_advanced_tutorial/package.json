@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-advanced-tutorial",
+  "version": "1.0.0",
+  "description": "Advanced Node.js & TypeScript Tutorial",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "compile": "npm run clean && npm run build",
+    "run:1": "node dist/1_async_patterns.js",
+    "run:2": "node dist/2_event_loop_concurrency.js",
+    "run:3": "node dist/3_streams.js",
+    "run:4": "node dist/4_modules_structure.js",
+    "run:5": "node dist/5_error_handling.js",
+    "run:6": "node dist/6_testing_applications.js",
+    "run:7": "node dist/7_child_processes.js",
+    "run:8": "node dist/8_advanced_typescript.js",
+    "run:9": "node dist/9_performance_optimization.js",
+    "run:10": "node dist/10_security_best_practices.js",
+    "profile:9": "node --prof dist/9_performance_optimization.js",
+    "inspect:9": "node --inspect dist/9_performance_optimization.js"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "tutorial",
+    "advanced"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  }
+} 

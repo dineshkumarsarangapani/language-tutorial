@@ -55,7 +55,7 @@ This tutorial delves into advanced concepts, patterns, and best practices for bu
     *   Identifying performance bottlenecks (CPU, memory).
     *   Using Node.js built-in profiler (`--prof`) and Chrome DevTools.
     *   Memory leak detection and management.
-    *   Caching strategies.
+    *   Caching strategies. 
 
 10. **Security Best Practices in Node.js Applications:**
     *   Common vulnerabilities (XSS, SQL Injection (if applicable), CSRF, etc.) and how they relate to Node.js.
